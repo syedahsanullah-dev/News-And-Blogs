@@ -1,0 +1,57 @@
+.bookmarks-heading {
+  font-family: sans-serif;
+  font-size: 3rem;
+  color: #ddd;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+.bookmarks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 50rem;
+
+}
+.bookmarks-list {
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE & Edge */
+}
+
+.bookmarks-list::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.bookmark-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 2rem;
+  cursor: pointer;
+}
+
+.bookmark-item img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  border-radius: 0.6rem;
+  margin-right: 1rem;
+}
+
+.bookmark-item h3 {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.delete-button {
+  font-size: 2.4rem;
+  color: #b88efc;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.delete-button:hover {
+  color: #ed4a4a;
+  transform: scale(1.1);
+}

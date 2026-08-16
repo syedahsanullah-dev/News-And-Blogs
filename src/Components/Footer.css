@@ -1,0 +1,21 @@
+.news-footer {
+  width: 100%;
+  min-height: 5rem;
+  background-color: #111214;
+  border-radius: 0 0 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+.news-footer p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #bbb;
+}
+.news-footer p span {
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
